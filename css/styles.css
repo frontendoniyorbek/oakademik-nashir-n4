@@ -1,0 +1,160 @@
+html {
+	box-sizing: border-box;
+	height: 100%;
+	scroll-behavior: smooth;
+}
+
+*:focus {
+	outline: 2px dotted #ff7500;
+	outline-offset: 3px;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.5;
+}
+
+.container {
+	max-width: 1200px;
+	width: 100%;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.btn {
+	border: none;
+	padding: 12px 24px;
+	background-color: #ff7500;
+	color: #fff;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: opacity 0.4s ease;
+}
+
+.btn:hover {
+	opacity: 0.8;
+}
+
+.btn:active {
+	opacity: 0.6;
+}
+
+/* site-header */
+.site-header {
+	padding-top: 16px;
+	padding-bottom: 16px;
+	border-top: 5px solid #ff7500;
+}
+
+.site-header-container {
+	display: flex;
+	align-items: center;
+}
+
+.site-logo-link {
+	margin-right: auto;
+	transition: opacity 0.4s ease;
+}
+
+.site-logo-link:hover {
+	opacity: 0.8;
+}
+
+.site-logo-link:active {
+	opacity: 0.6;
+}
+
+.site-nav {
+	margin-right: 32px;
+}
+
+.site-nav-list {
+	padding: 0;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	list-style: none;
+}
+
+.site-nav-item:not(:last-child) {
+	margin-right: 32px;
+}
+
+.site-nav-link {
+	text-decoration: none;
+	color: #000;
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 1.17;
+	letter-spacing: 1px;
+	transition: all 0.4s ease;
+}
+
+.site-nav-link:hover {
+	color: #ff7500;
+}
+
+.site-nav-link:active {
+	opacity: 0.6;
+}
+
+.site-nav-link-active {
+	border-bottom: 3px solid #ff7500;
+}
+
+p::selection {
+	background-color: red;
+	color: gold;
+}
+
+.hero {
+	background-color: #252420;
+	color: #fff;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.hero-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.hero-info {
+	max-width: 387px;
+	width: 100%;
+}
+
+.hero-line {
+	display: inline-block;
+	width: 80px;
+	height: 3px;
+	background-color: #ff7500;
+	margin-bottom: 40px;
+}
+
+.hero-title {
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 1.2;
+	letter-spacing: 0.5px;
+	margin-top: 0;
+	margin-bottom: 24px;
+}
+
+.hero-text {
+	margin-top: 0;
+	margin-bottom: 32px;
+}
+
+.hero-img-wrapper img {
+	width: 510px;
+	height: 510px;
+	object-fit: cover;
+	border-radius: 8px;
+}
