@@ -117,6 +117,7 @@ p::selection {
 	color: #fff;
 	padding-top: 80px;
 	padding-bottom: 80px;
+	margin-bottom: 147px;
 }
 
 .hero-container {
@@ -157,4 +158,69 @@ p::selection {
 	height: 510px;
 	object-fit: cover;
 	border-radius: 8px;
+}
+
+.main-info {
+	margin-bottom: 245px;
+}
+
+.main-info-line {
+	display: inline-block;
+	width: 80px;
+	height: 3px;
+	background-color: #ff7500;
+	margin-bottom: 24px;
+}
+
+.main-info-title {
+	margin-top: 0;
+	margin-bottom: 72px;
+	font-weight: 700;
+	font-size: 72px;
+	line-height: 1.2;
+	letter-spacing: 0.5px;
+	max-width: 435px;
+	width: 100%;
+}
+
+.main-info-list {
+	display: flex;
+	list-style: none;
+	justify-content: space-between;
+	margin: 0;
+	padding: 0;
+}
+
+.main-info-item {
+	max-width: 340px;
+	width: 100%;
+}
+
+.main-info-item:not(:last-child) {
+	margin-right: 40px;
+}
+
+.main-info-icon {
+	width: 100px;
+	height: 100px;
+	background-color: rgba(255, 117, 0, 0.2);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	margin-bottom: 32px;
+}
+
+.main-info-item-title {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 1.2;
+	letter-spacing: 0.5px;
+	margin-top: 0;
+	margin-bottom: 12px;
+}
+
+.main-info-item-text {
+	margin-top: 0;
+	margin-bottom: 0;
 }
