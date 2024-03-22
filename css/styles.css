@@ -124,18 +124,18 @@ p::selection {
 	margin-bottom: 147px;
 }
 
-.hero-container {
+.hero__container {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 }
 
-.hero-info {
+.hero__info {
 	max-width: 387px;
 	width: 100%;
 }
 
-.hero-line {
+.hero__line {
 	display: inline-block;
 	width: 80px;
 	height: 3px;
@@ -143,7 +143,7 @@ p::selection {
 	margin-bottom: 40px;
 }
 
-.hero-title {
+.hero__title {
 	font-weight: 700;
 	font-size: 40px;
 	line-height: 1.2;
@@ -152,12 +152,12 @@ p::selection {
 	margin-bottom: 24px;
 }
 
-.hero-text {
+.hero__text {
 	margin-top: 0;
 	margin-bottom: 32px;
 }
 
-.hero-img-wrapper img {
+.hero__img-wrapper img {
 	width: 510px;
 	height: 510px;
 	object-fit: cover;
