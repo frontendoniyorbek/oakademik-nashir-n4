@@ -229,7 +229,7 @@ p::selection {
 	margin-bottom: 0;
 }
 
-.promo-container {
+.promo__container {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -241,12 +241,12 @@ p::selection {
 	border-radius: 12px;
 }
 
-.promo-info {
+.promo__info {
 	max-width: 440px;
 	width: 100%;
 }
 
-.promo-heading {
+.promo__heading {
 	margin-top: 0;
 	margin-bottom: 24px;
 	font-weight: 700;
@@ -255,22 +255,22 @@ p::selection {
 	letter-spacing: 0.5px;
 }
 
-.promo-text {
+.promo__text {
 	margin-top: 0;
 	margin-bottom: 12px;
 }
 
-.promo-text2 {
+.promo__text2 {
 	margin-top: 0;
 	margin-bottom: 24px;
 }
 
-.promo-span {
+.promo__span {
 	color: #ff7500;
 	font-weight: 700;
 }
 
-.promo-img-wrapper img {
+.promo__img-wrapper img {
 	width: 440px;
 	height: 440px;
 	border-radius: 12px;
