@@ -283,13 +283,13 @@ p::selection {
 	padding-bottom: 56px;
 }
 
-.site-footer-top {
+.site-footer__top {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 }
 
-.site-footer-top-list {
+.site-footer__top-list {
 	list-style: none;
 	padding: 0;
 	margin: 0;
@@ -298,52 +298,52 @@ p::selection {
 	justify-content: center;
 }
 
-.site-footer-top-itme:not(:last-child) {
+.site-footer__top-itme:not(:last-child) {
 	margin-right: 16px;
 }
 
-.site-footer-top-link {
+.site-footer__top-link {
 	color: #252420;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
-.site-footer-top-link svg {
+.site-footer__top-link svg {
 	transition: all 0.4s ease;
 }
 
-.site-footer-top-link svg:hover {
+.site-footer__top-link svg:hover {
 	color: #ff7500;
 }
 
-.site-footer-top-link svg:active {
+.site-footer__top-link svg:active {
 	opacity: 0.6;
 }
 
-.site-footer-line {
+.site-footer__line {
 	margin-top: 40px;
 	margin-bottom: 64px;
 	height: 2px;
 	background-color: rgba(37, 36, 32, 0.5);
 }
 
-.site-footer-bootm {
+.site-footer__bootm {
 	display: flex;
 	justify-content: space-between;
 }
 
-.site-footer-bootm-list {
+.site-footer__bootm-list {
 	list-style: none;
 	padding: 0;
 	margin: 0;
 }
 
-.site-footer-bootm-item:not(:last-child) {
+.site-footer__bootm-item:not(:last-child) {
 	margin-bottom: 16px;
 }
 
-.site-footer-bootm-link {
+.site-footer__bootm-link {
 	text-decoration: none;
 	color: #252420;
 	font-size: 16px;
@@ -352,10 +352,10 @@ p::selection {
 	transition: all 0.4s ease;
 }
 
-.site-footer-bootm-link:hover {
+.site-footer__bootm-link:hover {
 	color: #ff7500;
 }
 
-.site-footer-bootm-link:active {
+.site-footer__bootm-link:active {
 	opacity: 0.6;
 }
